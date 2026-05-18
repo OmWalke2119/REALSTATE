@@ -26,7 +26,7 @@ connectDB();
 
 //middlewares
 const allowedOrigins = [
-  "http://localhost:5173",
+  "https://realstate-okxt.vercel.app",
 ].filter(Boolean);
 
 app.use(
